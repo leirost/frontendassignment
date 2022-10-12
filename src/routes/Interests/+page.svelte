@@ -7,11 +7,11 @@
             I love animals! My family even have 5 cats: Lisa, Sonya, Lexus, Vesta and Tucha 😍
             Look at them!
         <div class="pictures">
-                <img src="/static/source/lisa.jpg" style="width: 18%; border: 4px solid #87CEEB;">
-                <img src="/static/source/sonya.jpg" style="width: 18%; border: 4px solid #87CEEB;">
-                <img src="/static/source/lexus.jpg" style="width: 18%; border: 4px solid #87CEEB;">
-                <img src="/static/source/vesta.jpg" style="width: 18%; border: 4px solid #87CEEB;">
-                <img src="/static/source/tucha.jpg" style="width: 18%; border: 4px solid #87CEEB;">
+                <img src="/source/lisa.jpg" style="width: 18%; border: 4px solid #87CEEB;">
+                <img src="/source/sonya.jpg" style="width: 18%; border: 4px solid #87CEEB;">
+                <img src="/source/lexus.jpg" style="width: 18%; border: 4px solid #87CEEB;">
+                <img src="/source/vesta.jpg" style="width: 18%; border: 4px solid #87CEEB;">
+                <img src="/source/tucha.jpg" style="width: 18%; border: 4px solid #87CEEB;">
         </div>
             I used to have a dog but... I don't have any now, so I like to look at virtual dogs 😌
             <Dog />

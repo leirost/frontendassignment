@@ -6,13 +6,13 @@
     body {
         margin: 0;
         padding: 20px;
-        background-image: url(/static/source/background.png);
+        background-image: url(/source/background.png);
         display: grid;
     }
 
     @font-face {
         font-family: "My Custom Font";
-        src: url(/static/source/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+        src: url(/source/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
     }
     a {
         margin: 20px;
