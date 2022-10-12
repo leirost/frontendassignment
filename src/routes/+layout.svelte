@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <style>
     body {
         margin: 0;
@@ -32,9 +36,9 @@
         <h1 style="color:blue;" > ✨Hello and welcome!✨ </h1>
     </main>
     <nav>
-        <a href="/">Profile</a>
+        <a href="{ base }/">Profile</a>
         <span>🐱</span>
-        <a href="/Interests">My Interests!</a>
+        <a href="{ base }/Interests">My Interests!</a>
     </nav>
     <slot />
 </body>
