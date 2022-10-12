@@ -32,7 +32,7 @@
         <h1 style="color:blue;" > ✨Hello and welcome!✨ </h1>
     </main>
     <nav>
-        <a href="/Profile">Profile</a>
+        <a href="/">Profile</a>
         <span>🐱</span>
         <a href="/Interests">My Interests!</a>
     </nav>
