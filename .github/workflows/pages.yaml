@@ -24,7 +24,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/configure-pages@v1
-        id: pages
+        with:
+          static_site_generator: sveltekit
       - uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -34,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: ./build
 
   deploy:
     runs-on: ubuntu-latest
