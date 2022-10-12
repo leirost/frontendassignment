@@ -1,8 +1,5 @@
 <script>
-    import { base } from '$app/paths';
-</script>
-
-<script>
+     import { base } from '$app/paths';
     import Dog from "$lib/Dog.svelte";
 </script>
 <div class="interests">
