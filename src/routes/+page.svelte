@@ -31,8 +31,8 @@
                 <p><span class="q"> Age: </span> 21</p>
                 <p><span class="q"> Current location: </span> Innopolis</p>
                 <p><span class="q"> Hobbies: </span> drawing, online gaming</p>
-                <p><span class="q"> Contact me via:<a href="https://www.linkedin.com/in/lera-istomina-2b2820245/">LinkedIn<img src="src/source/linkedin-icon.png" style="width: 1em"></a>
-                                                        <a href="https://t.me/geralizz">Telegram<img src="src/source/telegram-logo.png" style="width: 1em"></a></span></p>
+                <p><span class="q"> Contact me via:<a href="https://www.linkedin.com/in/lera-istomina-2b2820245/">LinkedIn<img src="/source/linkedin-icon.png" style="width: 1em"></a>
+                                                        <a href="https://t.me/geralizz">Telegram<img src="/source/telegram-logo.png" style="width: 1em"></a></span></p>
             </div>
         </div>
     </div>
