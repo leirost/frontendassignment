@@ -23,15 +23,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/configure-pages@v1
-        with:
-          static_site_generator: sveltekit
       - uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: 'npm'
       - run: npm ci
       - run: npm run lint
+      - uses: actions/configure-pages@v1
+        with:
+          static_site_generator: sveltekit
       - run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
