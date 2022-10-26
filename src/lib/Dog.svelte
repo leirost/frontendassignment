@@ -1,5 +1,4 @@
 <script lang="ts">
-
 	interface ApiResult {
 		message: string;
 	}
@@ -7,16 +6,16 @@
 	const json: Promise<ApiResult> = (async () => await (await dogreq).json())();
 </script>
 
-<style>
-.center {
-	padding: 15px;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
-}
-</style>
-
 {#await json then dog}
-  <img src={dog.message} class="center" />
+	<img src={dog.message} class="center" />
 {/await}
+
+<style>
+	.center {
+		padding: 15px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+</style>
